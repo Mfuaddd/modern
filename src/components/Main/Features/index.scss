@@ -1,0 +1,23 @@
+.features{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    &__left{
+        width: calc(100% / 12 * 4);
+        
+        h2{
+            font-size: 2rem;
+            padding: 20px;
+        }
+    }
+    &__right{
+        width: calc(100% / 12 * 8);
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 50px;
+    }
+}
